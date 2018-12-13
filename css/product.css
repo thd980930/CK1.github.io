@@ -1,0 +1,952 @@
+/*通用样式*/
+*{	
+	padding: 0px;
+	margin: 0px;
+	font-family: 微软雅黑;
+}
+
+body{
+	font-size: 12px;
+	margin: 0 auto;
+}
+
+input{
+	outline: none;
+}
+
+.clr{
+	clear: both;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #f00;
+}
+
+ul li{
+	list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*最外层块main设置宽度，整体居中*/
+
+.main{
+	width: 1002px;
+	margin: 0 auto;
+}
+
+.daohang{
+	position: relative;
+	top: -50px;
+	left: 120px;
+	width: 106px;
+	height: 40px;
+	color: #fff;
+	font-size: 20px;
+	padding-left: 30px;
+}
+
+.aaa{
+	background: #030404;
+}
+
+.daohang a:hover{
+	text-decoration: underline;
+}
+
+.dhcontent{
+	width: 136px;
+	/*border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;*/
+	position: absolute;
+	left: -1px;
+	z-index: 1;
+	display: none;
+}
+
+.dhcontent ul li{
+	display: inline-block;
+	width: 136px;
+	height: 20px;
+	padding-left: 10px;
+}
+
+
+
+.daohang:hover{
+	background: #030404;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+/*主题内容块content*/
+.content{
+	width: 1002px;
+}
+
+.content-top{
+	width: 100%;
+	height: 70px;
+	background: #323737;
+}
+
+.logo1{
+	padding-left: 30px;
+}
+
+/*对text框进行定位及调整大小*/
+.content-top input.text-1{
+	position: relative;
+	top: -95px;
+	left: 290px;
+	width: 450px;
+	height: 45px;
+	border:2px solid #4f4b4c;
+	color: #888;
+}
+
+/*去除鼠标移上去的颜色*/
+.content-top input.text-1:hover{
+	outline: none;
+}
+
+
+/*对搜索框进行定位及调整大小*/
+.text-2{
+	position: relative;
+	top: -92px;
+	left: 290px;
+	width: 100px;
+	height: 49px;
+	background: #4f4b4c;
+	border:2px solid #4f4b4c;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+}
+
+/*鼠标移上去的颜色做个透明度*/
+.text-2:hover{
+	opacity: 0.8;
+}
+
+/*.content-top input:active{
+	border:2px solid #fa0;
+}*/
+
+/*主体内容下部分块*/
+.content-buttom{
+	width: 100%;			
+}
+
+/*改变鼠标放上去的样式*/
+.content-buttom img{
+	cursor: pointer;	
+}
+
+/*使鼠标移到这些图片改变透明度*/
+.content-buttom img:hover{
+	opacity: 0.8;
+}
+
+/*主体内容下左部分块，漂浮*/
+.content-buttom-left{
+	width: 620px;
+	float: left;
+}
+
+/*对字体加粗*/
+.content-buttom-left span{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.content-buttom-left .tese1{
+	float: left;
+}
+
+.content-buttom-left .tese2{
+	float: right;
+}
+
+/*主体内容下右部分块*/
+.content-buttom-right{
+	width: 620px;
+	float: right;
+	padding-top: 30px;
+}
+
+.content-buttom-right-l{
+	width: 420px;
+	float: left;
+}
+
+.content-buttom-right-r{
+	width: 200px;
+	float: right;
+}
+
+
+/*新加box块，1F*/
+.box{
+	width: 100%;
+	height: 600px;
+	background: #fff;
+	float: left;
+	padding-top: 20px;
+}
+
+.box img{
+	cursor: pointer;
+}
+
+.box img:hover{
+	opacity: 0.8;
+}
+
+.box-left{
+	width: 190px;
+	background: #fff;
+	float: left;
+}
+
+.box-left span{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.box-left .box-left-buttom{
+	background: #fff;
+
+}
+
+.box-left .box-left-buttom img{
+	padding-left: 10px;
+	margin-top: 15px;
+}
+
+/*右部分块*/
+.box-right{
+	float: left;
+	width: 1050px;
+	height: 490px;
+}
+
+
+.box-right .span1{
+	font-size: 15px;
+	font-weight: bold;
+	display: inline-block;
+	width: 120px;
+	height: 37px;
+	padding: 5px 0 0 20px;
+	margin-left: -1px; 
+	border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
+	border-top: 2px solid #fff;
+}
+
+.box-right .span2{
+	font-size: 15px;
+	font-weight: bold;
+	display: inline-block;
+	width: 120px;
+	height: 37px;
+	padding: 5px 0 0 20px;
+	margin-left: -4px;
+	border-right: 2px solid #fff;
+	border-top: 2px solid #fff;
+}
+
+.box-right-top .on1{
+	border-bottom: 2px solid #ff6d82;
+}
+
+.box-right .on2{
+	border-left: 2px solid #ff6d82;
+	border-right: 2px solid #ff6d82;
+	border-top: 2px solid #ff6d82;
+	border-bottom: none;
+}
+
+.box-right .span3{
+	display: inline-block;
+	width: 720px;
+	height: 34px;
+	margin-left: -5px;
+	border-bottom: 2px solid #ff6d82;
+}
+
+.box-right-left img{
+	float: left;
+	padding: 5px 10px;
+}
+
+.box-right-middle{
+	width: 420px;
+	float: left;
+}
+
+.box-right-right{
+	float: left;
+	width: 200px;
+	padding-left: 10px;
+}
+
+.box-right-hide{
+	width: 1000px;
+	display: none;
+}
+
+/*.box-right-hide img{
+	padding: 40px 38px;
+}*/
+
+.box-right-hide .one1{
+	width: 180px;
+	height: 170px;
+	background: #fff;
+	float: left;
+	padding: 10px 0px;
+	margin: 10px;
+}
+
+.box-right-hide img{
+	padding: 5px 25px;
+}
+
+.box-right-hide a{
+	color: #888;
+	display: inline-block;
+	padding-left: 3px;
+}
+
+.box-right-hide a:hover{
+	color: orange;
+}
+
+.box-bottom img{
+	width: 1220px;
+}
+
+
+/*新加box2块，2F*/
+.box2{
+	width: 100%;
+	height: 600px;
+	background: #fff;
+	float: left;
+	padding-top: 20px;
+}
+
+.box2 img{
+	cursor: pointer;
+}
+
+.box2 img:hover{
+	opacity: 0.8;
+}
+
+.box2-left{
+	width: 190px;
+	background: #fff;
+	float: left;
+}
+
+.box2-left span{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.box2-left .box-left-buttom{
+	background: #fff;
+
+}
+
+.box2-left .box-left-buttom img{
+	padding-left: 10px;
+	margin-top: 15px;
+}
+
+/*右部分块*/
+.box2-right{
+	float: left;
+	width: 1050px;
+	height: 490px;
+}
+
+
+.box2-right .span1{
+	font-size: 15px;
+	font-weight: bold;
+	display: inline-block;
+	width: 120px;
+	height: 37px;
+	padding: 5px 0 0 20px;
+	margin-left: -1px; 
+	border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
+	border-top: 2px solid #fff;
+}
+
+.box2-right .span2{
+	font-size: 15px;
+	font-weight: bold;
+	display: inline-block;
+	width: 120px;
+	height: 37px;
+	padding: 5px 0 0 20px;
+	margin-left: -4px;
+	border-right: 2px solid #fff;
+	border-top: 2px solid #fff;
+}
+
+.box2-right-top .on1{
+	border-bottom: 2px solid #ff6d82;
+}
+
+.box2-right .on2{
+	border-left: 2px solid #ff6d82;
+	border-right: 2px solid #ff6d82;
+	border-top: 2px solid #ff6d82;
+	border-bottom: none;
+}
+
+.box2-right .span3{
+	display: inline-block;
+	width: 720px;
+	height: 34px;
+	margin-left: -5px;
+	border-bottom: 2px solid #ff6d82;
+}
+
+.box2-right-left img{
+	float: left;
+	padding: 5px 10px;
+}
+
+.box2-right-middle{
+	width: 420px;
+	float: left;
+}
+
+.box2-right-right{
+	float: left;
+	width: 200px;
+	padding-left: 10px;
+}
+
+.box2-right-hide{
+	width: 1000px;
+	display: none;
+}
+
+/*.box-right-hide img{
+	padding: 40px 38px;
+}*/
+
+.box2-right-hide .one2{
+	width: 180px;
+	height: 170px;
+	background: #fff;
+	float: left;
+	padding: 10px 0px;
+	margin: 10px;
+}
+
+.box2-right-hide img{
+	padding: 5px 25px;
+}
+
+.box2-right-hide a{
+	color: #888;
+	display: inline-block;
+	padding-left: 3px;
+}
+
+.box2-right-hide a:hover{
+	color: orange;
+}
+
+.box2-bottom img{
+	width: 1220px;
+}
+
+
+
+
+
+/*尾部块*/
+.footer{
+	width: 100%;	
+}
+
+/*尾部上部分块*/
+.footer-top{
+	width: 100%;	
+	position: relative;
+	/*background: #f5f5f5;*/
+}
+
+
+
+/*定义自定义列表的宽以达到控制每个列表之间的间距*/
+.footer-top dl{
+	width: 230px;
+	height: 65px;
+	float: left;
+	padding-left: 20px;	
+}
+
+
+/*对尾部上部分块的a标签(如:正品保障)相对定位*/
+.footer-top a{
+	position: relative;
+	left: 65px;
+	top: 10px;
+}
+
+/*使鼠标移到a标签字变为红色*/
+.footer-top a:hover{
+	color: #f00;	
+}
+
+/*对span(如:正品保障，提供发票)进行相对定位*/
+.footer-top span{
+	position: relative;
+	left: 65px;
+	top: 10px;
+}
+
+/*对footer-top中的属性进行鼠标移上去缩放*/
+/*1.正品保障*/
+.footer-top .one{
+	background: url("../img/footer/1.png") 0 0 no-repeat;		
+}
+
+/*2.急速物流*/
+.footer-top .two{
+	background: url("../img/footer/2.png") 0 0 no-repeat;		
+}
+
+/*3.无忧售后*/
+.footer-top .three{
+	background: url("../img/footer/3.png") 0 0 no-repeat;		
+}
+
+/*4.特色服务*/
+.footer-top .four{
+	background: url("../img/footer/4.png") 0 0 no-repeat;	
+}
+
+
+/*5.帮助中心*/
+.footer-top .five{
+	background: url("../img/footer/5.png") 0 0 no-repeat;	
+}
+
+.footer-top span{
+	color: gray;
+}
+
+.footer-top a{
+	color: #000;
+}
+
+/*尾部中间块*/
+.footer-middle a{
+	color: gray;
+}
+
+/*鼠标移到a链接变红色*/
+.footer-middle a:hover{
+	color: #f00;
+}
+
+/*定义自定义列表的宽以达到控制每个列表之间的间距*/
+.footer-middle dl{
+	width: 200px;
+	float: left;
+	padding-left: 8px;
+}
+
+/*调整dt之间的外边距(上)*/
+.footer-middle dt{
+	margin: 5px 0;
+}
+
+/*对span进行字体加粗及大小(如购物指南，支付方式)*/
+.footer-middle span{
+	font-weight: bold;
+	font-size: 15px;
+}
+
+/* rela是易信客户端，相对定位*/
+.rela{
+	position: relative;
+	top: 10px;
+	cursor: pointer;
+}
+/*对二维码图片进行放大效果*/
+.rela img{
+	transition: 3s;
+}
+
+.rela img:hover{
+	transform: scale(2,2);
+}
+/*放大结束*/
+
+/*尾部buttom*/
+.footer-buttom{
+	width: 100%;
+	height:256px;
+	background: #33302b;
+}
+
+
+
+.footer-buttom dl{
+	width: 410px;
+	height: 100px;
+	float: left;
+}
+
+/*对span块相对定位*/
+.footer-buttom span{
+	position: relative;
+	left: 90px;
+	color: #fff;
+}
+
+.footer-buttom span dd{
+	padding-top: 5px;
+}
+
+/*背景图*/
+.footer-buttom .one{
+	background: url("../img/footer/01.png") 0 0 no-repeat;
+}
+
+.footer-buttom .two{
+	background: url("../img/footer/02.png") 0 0 no-repeat;	
+}
+
+.footer-buttom .three{
+	background: url("../img/footer/03.png") 0 0 no-repeat;	
+}
+
+.three span span{
+	display: inline-block;
+	width: 80px;
+	height: 25px;
+	border-radius: 10px;
+	background: #fa0;
+	font-size: 16px;
+	position: relative;
+	left: 0px;
+	top: 10px;
+}
+
+.three span span b{
+	padding-left: 6px;
+}
+
+.three span span:hover{
+	background: #f80;
+	cursor: pointer;
+}
+
+.footer-buttom ul{
+	padding-top: 20px;
+}
+
+.footer-buttom ul li {
+	margin: 5px;
+	float: left;
+}
+
+/*改变li中的a标签的字体颜色*/
+.footer-buttom ul li a{
+	color: #fff;
+}
+
+/*改变最尾部版权的字体颜色*/
+.footer-buttom .banquan{
+	color: gray;
+}
+
+
+
+
+/*右侧导航栏*/
+.main-right{
+	width:35px;
+	float: right;
+}
+
+/*  */
+/*右侧导航栏main-right  固定position: fixed;*/
+.daohang-right{
+	float: right;
+	position: fixed;
+	height: 665px;	
+	background: #383838;
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 10px;
+	text-align: center;
+}
+
+.main-right .daohang-right img{
+	cursor: pointer;
+}
+
+.daohang-right .six{
+	background: #383838;
+}
+
+.daohang-right .six a{
+	color: #000;
+}
+
+.daohang-right .onon{
+	background: orange;
+}
+
+/*购物*/
+.gowu{
+	margin-top: 130px;
+}
+
+.gowu div:hover{
+	background: orange;
+}
+
+/*充值*/
+.chong{
+	position: relative;	
+	margin-top: 80px;
+}
+
+.chong div{
+	position: absolute;
+	top: -1px;
+	left: 45px;
+	width: 45px;
+	height: 30px;
+	line-height: 30px;
+	z-index: -1;
+}
+
+/*足迹*/
+.zuji{
+	position: relative;	
+	margin-top: 10px;
+}
+
+.zuji div{
+	position: absolute;
+	top: -1px;
+	left: 45px;
+	width: 45px;
+	height: 26px;
+	line-height: 26px;
+	z-index: -1;
+}
+
+/*客户端专享价*/
+.kehuduan{
+	position: relative;	
+	margin-top: 140px;
+}
+
+.kehuduan div{
+	position: absolute;
+	top: -40px;
+	left: 110px;
+	width: 110px;
+	height: 127px;
+	line-height: 27px;
+	z-index: -100;
+}
+
+/*在线咨询*/
+.zixun{
+	position: relative;	
+	margin-top: 5px;
+}
+
+.zixun div{
+	position: absolute;
+	top: -1px;
+	left: 80px;
+	width: 80px;
+	height: 29px;
+	line-height: 29px;
+	z-index: -1;
+}
+
+/*调查问卷*/
+.diaocha{
+	position: relative;
+	margin-top: 5px;
+}
+
+.diaocha div{
+	position: absolute;
+	top: -1px;
+	left: 80px;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	z-index: -1;
+}
+
+/*返回顶部*/
+.returntop{
+	position: relative;
+	margin-top: 5px;
+}
+
+.returntop div{
+	position: absolute;
+	top: -1px;
+	left: 80px;
+	width: 80px;
+	height: 31px;
+	line-height: 31px;
+	z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+/*js增加类名用，来实现导航条粘贴效果*/
+.fixed{
+	position: fixed;
+	top: 0;
+	width: 1250px;
+	height: 80px;
+	margin: 0 auto;
+	/*background: #fff;*/
+	background: rgba(255,255,255,0.8);
+	z-index: 5;
+}
+
+
+/*轮播图内容*/
+.content-middle{
+	width: 100%;
+	height: 450px;
+	background: #7701a1;
+	position: relative;
+}
+
+.content-middle ul img{
+	width: 750px;
+	height: 450px;
+	position: absolute;
+	left: 250px;
+}
+
+.leftjian{
+	position: absolute;
+	top: 200px;
+	left: 180px;
+	width: 65px;
+	height: 110px;
+	background: rgba(0,0,0,0.4);
+	display: none;
+}
+
+.leftjian:hover{
+	background: rgba(0,0,0,0.6);
+}
+
+.leftjian img{
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	cursor: pointer;
+	/*z-index: 5;*/
+}
+
+.rightjian{
+	position: absolute;
+	top: 200px;
+	right: 180px;
+	width: 65px;
+	height: 110px;
+	background: rgba(0,0,0,0.4);
+	display: none;
+}
+
+.rightjian:hover{
+	background: rgba(0,0,0,0.6);
+}
+
+.rightjian img{
+	position: absolute;
+	top: 30px;
+	right: 15px;
+	cursor: pointer;
+	/*z-index: 5;*/
+}
+
+.content-middle .banner-span{
+	width: 100%;
+	height: 45px;
+	position: absolute;
+	bottom: -10px;
+}
+
+.content-middle .banner-span p{
+	text-align: center;
+}
+
+.content-middle .banner-span span{
+	width: 100px;
+	height: 30px;
+	background: rgba(0,0,0,0.3);
+	margin-right: 2px;
+	display: inline-block;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 16px;
+	color: #fff;
+	padding-top: 3px;
+}
+
+.content-middle .banner-span .spanOn{
+	background: rgba(0,0,0,0.6);
+}

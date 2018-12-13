@@ -1,0 +1,259 @@
+/*通用样式*/
+*{	
+	padding: 0px;
+	margin: 0px;
+	font-family: 微软雅黑;
+}
+
+body{
+	width: 1002px;
+	font-size: 12px;
+	margin: 0 auto;
+	background: #f1f1f1;
+}
+
+input{
+	outline: none;
+}
+
+.clr{
+	clear: both;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #f00;
+}
+
+ul li{
+	list-style: none;
+}
+
+
+
+
+
+
+
+
+
+/*清除浮动*/
+.clr{*zoom: 1;}
+.clr:after{clear: both; display: table; content: "";}
+
+
+
+
+/*最外层块main设置宽度，整体居中*/
+
+.main{
+	width: 1002px;
+	margin: 0 auto;
+}
+
+.daohang{
+	position: relative;
+	top: -50px;
+	left: 120px;
+	width: 106px;
+	height: 40px;
+	color: #fff;
+	font-size: 20px;
+	padding-left: 30px;
+}
+
+.daohang>a{
+	color: #fff;
+}
+
+.aaa{
+	background: #030404;
+}
+
+.daohang a:hover{
+	text-decoration: underline;
+}
+
+.dhcontent{
+	width: 136px;
+	/*border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;*/
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	z-index: 1;
+	display: none;
+}
+
+.dhcontent ul li{
+	display: inline-block;
+	width: 136px;
+	height: 20px;
+	padding-left: 10px;
+}
+
+
+
+.daohang:hover{
+	background: #030404;
+
+}
+
+/*主题内容块content*/
+.content{
+	width: 1002px;
+}
+
+.header{
+	width: 100%;
+	height: 70px;
+	background: #323737;
+}
+
+.logo1{
+	padding-left: 10px;
+}
+
+/*对text框进行定位及调整大小*/
+.header input.text-1{
+	position: relative;
+	top: -95px;
+	left: 290px;
+	width: 450px;
+	height: 45px;
+	border:2px solid #4f4b4c;
+	color: #888;
+}
+
+/*去除鼠标移上去的颜色*/
+.header input.text-1:hover{
+	outline: none;
+}
+
+
+/*对搜索框进行定位及调整大小*/
+.text-2{
+	position: relative;
+	top: -92px;
+	left: 290px;
+	width: 100px;
+	height: 49px;
+	background: #4f4b4c;
+	border:2px solid #4f4b4c;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+}
+
+/*鼠标移上去的颜色做个透明度*/
+.text-2:hover{
+	opacity: 0.8;
+}
+
+.content a{
+	font-size: 25px;
+}
+
+.content-left img{
+	float: left;
+}
+
+.content-1 span{
+	font-weight: bold;
+	color: #fff;
+	font-size: 18px;
+}
+
+.content-1 span:hover{
+	color: #fff;
+}
+
+.content-left span{
+	position: absolute;
+	top: 550px;
+	left: 200px;
+}
+
+img{
+	cursor: pointer;
+}
+
+.content-right{
+	position: relative;
+}
+
+.content-right img{
+	padding-left: 23px;
+}
+
+.content-right img:nth-child(4){
+	padding-top: 20px;
+}
+
+.content-right img:nth-child(5){
+	padding-top: 20px;
+}
+
+.content-right img:nth-child(6){
+	padding-top: 20px;
+}
+
+.footer div{
+	float: left;
+	width: 180px;
+	height: 230px;
+	border: 5px solid #eee;
+	font-size: 16px;
+}
+
+.footer div p:hover{
+	color: #fd9500;
+}
+
+.margin-20{
+	margin-left: 13px;
+}
+
+.footer div img{
+	width: 100%;
+}
+
+.footer div span{
+	float: right;
+}
+
+.footer div span i{
+	font-size: 25px;
+	color: #fd9500;
+}
+
+
+.footer-b{
+	width: 100%;
+	height: 120px;
+	background: #fff;
+	margin-top: 350px;
+	font-size: 16px;
+}
+
+.footer-b .f-c:hover{
+	color: #fd9500;
+}
+
+/*js增加类名用，来实现导航条粘贴效果*/
+.fixed{
+	position: fixed;
+	top: 0;
+	width: 999px;
+	height: 80px;
+	margin: 0 auto;
+	/*background: #fff;*/
+	background: rgba(20,20,20,0.8);
+	z-index: 5;
+}
